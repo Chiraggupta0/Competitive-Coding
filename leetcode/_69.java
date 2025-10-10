@@ -1,4 +1,4 @@
-class Solution {
+class _69 {
     public int mySqrt(int x) {
         if (x == 0 || x == 1)
             return x;
@@ -22,7 +22,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        _69 sol = new _69();
         System.out.println(sol.mySqrt(4));  // Output: 2
         System.out.println(sol.mySqrt(8));  // Output: 2
     }
