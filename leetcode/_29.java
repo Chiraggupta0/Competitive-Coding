@@ -1,4 +1,4 @@
-class Solution {
+class _29 {
     public int divide(int dividend, int divisor) {
         // Handle overflow
         if (dividend == Integer.MIN_VALUE && divisor == -1)
@@ -33,7 +33,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        _29 sol = new _29();
         System.out.println(sol.divide(10, 3));          // 3
         System.out.println(sol.divide(7, -3));          // -2
         System.out.println(sol.divide(2147483647, 3));  // 715827882
