@@ -1,4 +1,4 @@
-public class ExcelColumnTitle {
+public class _168 {
     public static String convertToTitle(int columnNumber) {
         StringBuilder sb = new StringBuilder();
 
