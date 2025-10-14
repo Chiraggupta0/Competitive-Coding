@@ -1,4 +1,4 @@
-class Solution {
+class _13 {
     public int romanToInt(String s) {
         int result = 0;
         
@@ -31,7 +31,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        _13 sol = new _13();
         String s = "MCMXCIV";
         System.out.println(sol.romanToInt(s)); // Output: 1994
     }
