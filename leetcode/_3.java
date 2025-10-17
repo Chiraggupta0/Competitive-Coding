@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class _3 {
     public int lengthOfLongestSubstring(String s) {
         // HashSet to store unique characters
         HashSet<Character> set = new HashSet<>();
@@ -30,7 +30,7 @@ class Solution {
 
     // For quick testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        _3 sol = new Solutio_3();
         System.out.println(sol.lengthOfLongestSubstring("abcabcbb")); // 3
         System.out.println(sol.lengthOfLongestSubstring("bbbbb"));    // 1
         System.out.println(sol.lengthOfLongestSubstring("pwwkew"));   // 3
