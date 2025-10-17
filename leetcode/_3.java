@@ -30,7 +30,7 @@ class _3 {
 
     // For quick testing
     public static void main(String[] args) {
-        _3 sol = new Solutio_3();
+        _3 sol = new _3();
         System.out.println(sol.lengthOfLongestSubstring("abcabcbb")); // 3
         System.out.println(sol.lengthOfLongestSubstring("bbbbb"));    // 1
         System.out.println(sol.lengthOfLongestSubstring("pwwkew"));   // 3
